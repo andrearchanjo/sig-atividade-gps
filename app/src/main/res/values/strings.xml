@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Atividade_GPS</string>
+    <string name="buscar_lat_long">Buscar Lat Long</string>
 </resources>
