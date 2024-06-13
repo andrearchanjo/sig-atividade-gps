@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Atividade_GPS</string>
     <string name="buscar_lat_long">Buscar Lat Long</string>
+    <string name="reset">Reset</string>
 </resources>

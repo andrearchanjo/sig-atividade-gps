@@ -14,8 +14,113 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/buscar_lat_long"
-            android:onClick="buscarInformacoesGPS"/>
+            android:text="@string/reset"
+            android:onClick="reset"/>
+
+        <TextView
+            android:id="@+id/txtPontoA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ponto A"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="18sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="112dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="215dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:layout_width="219dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@android:color/holo_orange_light"
+                    android:onClick="verPontoA"
+                    android:text="ver"
+                    tools:ignore="OnClick"/>
+
+                <Button
+                    android:layout_width="219dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@android:color/holo_purple"
+                    android:onClick="lerPontoA"
+                    android:text="ler"
+                    tools:ignore="OnClick"/>
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/editPtoA"
+                android:layout_width="match_parent"
+                android:layout_height="99dp"
+                android:ems="18"
+                android:inputType="textPersonName|textMultiLine"
+                android:maxLines="5"
+                android:textAlignment="center"
+                android:textSize="12sp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtPontoB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ponto B"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="18sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="112dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="215dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:layout_width="219dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@android:color/holo_orange_light"
+                    android:onClick="verPontoB"
+                    android:text="ver"
+                    tools:ignore="OnClick"/>
+
+                <Button
+                    android:layout_width="219dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@android:color/holo_purple"
+                    android:onClick="lerPontoB"
+                    android:text="ler"
+                    tools:ignore="OnClick"/>
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/editPtoB"
+                android:layout_width="match_parent"
+                android:layout_height="99dp"
+                android:ems="18"
+                android:inputType="textPersonName|textMultiLine"
+                android:maxLines="5"
+                android:textAlignment="center"
+                android:textSize="12sp"/>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/teal_200"
+            android:onClick="calcularDistancia"
+            android:text="Distância"/>
 
         <WebView
             android:layout_width="match_parent"
