@@ -5,4 +5,4 @@
 
 ## Atividade Distância
 ### Branchs: atividade-distancia
-### Link Vídeo: 
+### Link Vídeo: https://www.youtube.com/watch?v=udTdikzskWw&ab_channel=Andr%C3%A9Archanjo
